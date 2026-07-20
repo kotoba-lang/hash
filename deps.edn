@@ -1,0 +1,6 @@
+{:paths ["src"]
+ :aliases
+ {:test
+  {:extra-paths ["test"]
+   :extra-deps {io.github.kotoba-lang/kotoba {:local/root "../kotoba"}}
+   :main-opts ["-m" "kotoba.hash.sha1-test"]}}}
