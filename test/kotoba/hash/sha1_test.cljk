@@ -1,5 +1,5 @@
 (ns kotoba.hash.sha1-test
-  (:require [clojure.test :refer [deftest is run-tests]]
+  (:require [kotoba.test :refer [deftest is run-tests]]
             [kotoba.runtime :as runtime]
             [kotoba.wasm-exec :as wasm-exec]))
 
